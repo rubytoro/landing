@@ -6,42 +6,37 @@ body{
     margin:0;
     
 }
-img{
+  
+.robot-image{
     width:400px;
-    height:250px;   
-    
+    height:250px;
+    border-radius:10px;
 }
-
 
 .section-one{
     background-color:#1F2937;
     display:flex;
     flex-direction:column;
     color:white;
-    padding:50px 200px;
-    
-
-  
-    
+    padding:50px 100px 50px  100px;
 }
 .header{
     display:flex;
     justify-content:space-between;
-    padding:16px 0px;
+    /*padding:16px 0px;*/
     margin-bottom:50px;
     
 }
-
 .header-logo{
     font-size:24px;
     color: #F9FAF8;
+    font-style:#F9FAF8;
+
 }
 .section-one-two{
     display:flex;
     padding:32px 0px;
     justify-content:space-between;
-   
-    
 }
 
 ul{
@@ -49,37 +44,108 @@ ul{
     margin:0;
     padding:0;
     list-style-type:none;
-    gap:8px;
+    gap:25px;
+    flex-shrink:0;
 }
 li{
     font-size:18px;
     color:#E5E7EB;
+    
 }
 .subtitle{
     font-size:48px;
     font-weight:900px;
+    font-style:#F9FAF8 ;
     color:#F9FAF8;
 }
 
 .left{
     display:flex;
     flex-direction:column;
-    max-width:400px;
+    max-width:500px;
+    
    
 }
-button{
+.top-button{
     color:white;
     background-color:#3882F6;
     width:100px;
     border-radius:5px;
     border-style:none;
     margin-top:16px;
+    padding:8px;
 }
 
+h3{
+    text-align:center;
+}
 
 .section-two{
     background-color:white;
-    padding:32px 250px;
+    padding:16px 100px 50px  100px;
+    display:flex;
+    justify-content:center;
+    gap:60px;
+}   
+.info-box{
+    width:200px;
+    text-align:center;
+}
 
+.random-image{
+    width:200px;
+    height:200px;
+    border-radius:10px;
+}
+.section-three{
+    font-size:36px;
+    font-style:#1F2937;
+    background-color:#E5E7EB;
+    padding:100px;
+   
 
 }
+.quote-author{
+    text-align:end;
+}
+.section-four{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   padding:50px;
+ 
+}
+.subscribe-box{
+    background-color:#3882F6;
+    color:white;
+    border-radius:10px;
+    padding:20px;
+    margin-top:20px;
+    width:600px;
+    display:flex;
+    justify-content:space-around;
+    
+}
+
+.subscribe-button{
+
+}
+.bottom-button{
+    color:white;
+    background-color:#3882F6;
+    width:100px;
+    border-radius:5px;
+    border-style:solid;
+    border-color:white;
+    padding:8px;
+}
+
+.footer{
+    background-color:#1F2937;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+    
+
+    
